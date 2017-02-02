@@ -1,0 +1,38 @@
+CS172 -- ASSIGNMENT #1 
+.
+GRADE:
+
+REVIEW of CS171
+EXERCISES:
+
+Put all assignments on GitHub and submit the GitHub link to BlackBoard.
+
+EX01_01 – Write a function called ex02 which takes no arguments and returns a void. Call this function from main(). In that function:
+Declare  a variable hasPassedTest , and initialize  it to true .
+Declares two variables x and y which are initialized to random numbers, then outputs whether x is greater than or equal to y .
+Declares a variable numberOfShares and prompts the user for a value, and outputs whether the value is less than 100 .
+Prompts the user for a box width and a book width, then outputs if the box width is evenly divisible by the book width
+Prompts the user for the shelf life of a box of chocolate and the outside temperature, then decreases the shelf life by 4 if the outside temperature is greater than 90
+
+
+EX01_02 – Write a function called ex03, which takes no arguments and returns a void. Call this function from main() (and yes, you can reuse the project for ex02). In that function:
+Prompt the user for the length and height of a right triangle. Output the length of the hypotenuse of that triangle.
+Prompt the user for a yes or no response (y or n) using a char variable. Output “yes” if the user gave you a ‘y’, and “no” if the user gave you ‘n’.
+Initialize a char variable tab to the tab character.
+Declare a string variable mailingAddress, and prompt the user for their mailing address.
+Initialize a string variable to the empty string.
+
+EX01_03 – Write a function called ex03, which takes no arguments and returns a void. Call this function from main() (and yes, you can reuse the project for ex02). In that function:
+Write code to ask the user for a number between 1 and 10. Loop until the user gives a valid input.
+Use the number in part (a) to output the sum of the cubes from 1 to the number given (by cube, I mean that for a given number x, determine x*x*x).
+Use a do-while loop to output a number of asterisks, again using the input from (a)
+Use a for loop to output the even numbers from 0 to 40.
+Implement a separate function that takes an integer, and doubles that integer. Call that function from your ex03 function, using the value prompted in (a).
+Write a function called add that takes two integers, and returns the sum of those integers. Call it using two random numbers.
+Write a function that adds one to its parameter. The function should take the integer as pass by reference.
+
+EX01_04 – Write a function called ex04, which takes no arguments and returns a void. Call this function from main() (and yes, you can reuse the project for ex02). In that function:
+Write a loop that asks the user for three integers, and stores those integer values in an array.
+Write some code that calculates the sum and the product of the values in the integers, and outputs those results.
+Write a function that takes an array and the size of the array, and outputs the values in that array. Call the array from your ex04 function, passing the array of 5 integers from (a)
+Write a function that takes an array and the size of that array, then prompts the user for a value.  let that value be x and the array be a.  output the result of calculating p = a[2] * x^2 + a[1] * x + a[0].  
