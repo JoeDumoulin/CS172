@@ -88,7 +88,7 @@ int main()
     if (playlist.playSong(2) == "")
     {
         errors++;
-        cout << "error: genre of the third song is incorrect\n";
+        cout << "error: title of the third song is incorrect\n";
     }
 
     if (playlist.playSong(10) != "")
