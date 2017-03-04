@@ -20,7 +20,7 @@ int main(){
     std::cout << "(x4, y4) = (" << x4 << ", " << y4 << "), " << std::endl;
 
 
-    // define two line segments
+    // define two line segments (optional)
 //    Point line1[] = {Point(x1, y1), Point(x2, y2)};
 //    Point line2[] = {Point(x3, y3), Point(x4, y4)};
 
@@ -30,8 +30,11 @@ int main(){
     double c = y3-y4;
     double d = x3-x4;
 
-    // calculate e and f as the y-intercept of the lines
-    // y = mx + b --> b = y-mx, where (x,y) is one of the endpoints
+    // calculate e and f according to problem 3.22 (page 110):
+    // e = (y1-y2)x1 - (x1-x2)y1
+    // f = (y3-y4)x3 - (x3-x4)y3
+    
+    
     double e = a * x1 - b * y1;
     double f = c * x3 - d * y3;
 
