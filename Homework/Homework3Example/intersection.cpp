@@ -11,7 +11,7 @@
 int main(){
     // prompt for some points
     double x1, y1, x2, y2, x3, y3, x4, y4 = 0;
-    std::cout << "enter the endpoints of the eight lines below" << std::endl;
+    std::cout << "enter the endpoints of the two line segments below" << std::endl;
     std::cin >> x1 >> y1 >> x2 >> y2 >> x3 >> y3 >> x4 >> y4;
     std::cout << "you entered the following points:" << std::endl;
     std::cout << "(x1, y1) = (" << x1 << ", " << y1 << "), " << std::endl;
