@@ -1,3 +1,4 @@
+
 // dynamic allocation example
 // compile with  g++ main.cpp -o test
 #include <iostream>
