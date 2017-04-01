@@ -31,6 +31,13 @@ Date::Date(int year, int month, int day)
     _day = day;
 }
 
+Date::Date(const Date& date)
+{
+    _year = date._year;
+    _month = date._month;
+    _day = date._day;
+}
+
 void Date::setDate(int time_since_epoch)
 {
     // Set Date to "time since epoch"
@@ -39,6 +46,13 @@ void Date::setDate(int time_since_epoch)
     _year = 1900 + ptm->tm_year;
     _month = ptm->tm_mon + 1;
     _day = ptm->tm_mday;
+}
+
+void Date::setDate(const Date& date)
+{
+    _year = date._year;
+    _month = date._month;
+    _day = date._day;
 }
 
 int Date::getYear() const
