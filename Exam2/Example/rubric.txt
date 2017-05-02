@@ -1,0 +1,13 @@
+Grade Rubric
+
++---------------------------------------------+--------+
+|Category                                     | Percent|
++---------------------------------------------+--------+
+|Correct use of member variables and methods. | 10%    |
+|Correctly read and write city data to file.  | 15%    |
+|Correct Implementation for Citizen.          | 20%    |
+|Correct Implementation for City.             | 20%    |
+|Comments                                     | 20%    |
+|Successful GitHub submission                 |  5%    |
+|Correct use of new and delete                | 10%    |
++---------------------------------------------+--------+
